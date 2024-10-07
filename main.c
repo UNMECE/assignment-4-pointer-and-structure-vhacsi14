@@ -67,9 +67,9 @@ int main(int argc, char *argv[])
 	
 	print_items(item_list, item_num);
 
-	double avg_price = average_price(item_list, item_num);
+	double price_avg = average_price(item_list, item_num);
 	printf("##########\n");
-	printf("Average price of items: %lf\n", avg_price);
+	printf("Average price of items: %lf\n", price_avg);
 	printf("##########\n");
 
 	if(argc == 2) 
